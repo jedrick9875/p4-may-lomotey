@@ -1,0 +1,10 @@
+import { title } from "@/components/primitives";
+
+export default function Home() {
+  return (
+    <div>
+      <h1 className={title()}>Home</h1>
+      <p>home page</p>
+    </div>
+  );
+}
